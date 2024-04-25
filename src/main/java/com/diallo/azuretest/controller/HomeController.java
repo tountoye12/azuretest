@@ -13,6 +13,6 @@ public class HomeController {
     @GetMapping("")
     public String home() {
 
-        return "Hello World from azure";
+        return "Hello World from azure, Test CI/CD";
     }
 }
