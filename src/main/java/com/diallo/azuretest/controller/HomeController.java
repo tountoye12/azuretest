@@ -9,10 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HomeController {
 
+    //Azure database password: Tountoye@62210@
+    //Azure database user: diallo
+
 
     @GetMapping("")
     public String home() {
 
-        return "Hello World from azure, Test CI/CD";
+        return "Hello World from azure, Test CI/CD" + "Welcome docker Group";
     }
 }
