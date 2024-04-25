@@ -16,6 +16,6 @@ public class HomeController {
     @GetMapping("")
     public String home() {
 
-        return "Hello World from azure, Test CI/CD" + "Welcome docker Group";
+        return "Hello World from azure, Test CI/CD " + " Welcome docker Group";
     }
 }
